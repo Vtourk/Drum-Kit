@@ -15,7 +15,6 @@ for (let index = 0; index < numberOfDrumButtons; index++) {
 }
 
 document.addEventListener("keydown",function (event) {
-    console.log(event);
     makeSound.this.innerHTML;
     makeSound(event.key); //εδώ πάει και καλεί την function και διαλέγει το key
     buttonAnimation(event.key);
